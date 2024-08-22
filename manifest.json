@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Links Cart",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "logo.png"
+    },
+    "permissions": [
+      "tabs",
+      "storage" 
+    ]
+  }
+  

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 300px; /* Set the width for the popup */
+    height: 400px; /* Set a height for the popup */
+    font-family: Arial, sans-serif; /* Add a font for better readability */
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: azure;
+    padding: 10px; /* Add some padding */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 5px;
+    width: 100%; /* Ensure the input field takes up the full width */
+    margin-bottom: 20px; /* Add some space below the input */
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    opacity: 0.85;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.con-o {
+    width: 100%;
+    margin-top: 20px; /* Add some space above the list */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    word-wrap: break-word; /* Ensure long URLs break to the next line */
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
